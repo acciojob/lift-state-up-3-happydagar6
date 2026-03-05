@@ -5,7 +5,7 @@ const ChildComponent2 = ({ updateOption }) => {
   return (
     <div>
       {/* Isne click hone par apni alag value bheji */}
-      <button onClick={() => updateOption("Option 2 Selected")}>
+      <button onClick={() => updateOption("Option 2")}>
         Select Option 2
       </button>
     </div>
