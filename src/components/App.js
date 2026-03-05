@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="parent">
         <h1>Parent Component</h1>
-        <p>{selectedOption}</p>
+        <p>Selected Option: {selectedOption}</p>
 
         <ChildComponent1 updateOption={handleOptionUpdate} />
         <ChildComponent2 updateOption={handleOptionUpdate} />
